@@ -1,0 +1,10 @@
+node_modules/
+docs/.vuepress/dist/
+Thumbs.db
+.DS_Store
+db.json
+*.log
+.vscode/
+package-lock.json
+.git/
+deploy.sh
