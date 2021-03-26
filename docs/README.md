@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /HexoWork.png
 actiontext : 即刻上手 👉
 actionLink: /zh/guide/
 features:
