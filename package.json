@@ -6,11 +6,14 @@
   "repository": "https://github.com/HexoWork/HexoWork.git",
   "author": "HexoWork",
   "license": "MIT",
-    "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+  "scripts": {
+    "docs:dev": "vuepress dev theme-hope",
+    "docs:build": "vuepress build theme-hope",
+    "dev:clean-dev": "vuepress dev theme-hope --no-cache",
+    "docs:eject-theme": "vuepress eject-hope theme-hope"
   },
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.13.1"
   }
 }
