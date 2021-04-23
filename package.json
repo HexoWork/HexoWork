@@ -1,19 +1,25 @@
 {
-  "name": "HexoWork",
-  "version": "1.0.0",
-  "description": "Make Hexo work and study cheaper, and make it easy to use for more newcomers who are new to Hexo.",
-  "main": "index.js",
-  "repository": "https://github.com/HexoWork/HexoWork.git",
-  "author": "HexoWork",
-  "license": "MIT",
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev theme-hope",
-    "docs:build": "vuepress build theme-hope",
-    "dev:clean-dev": "vuepress dev theme-hope --no-cache",
-    "docs:eject-theme": "vuepress eject-hope theme-hope"
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
   },
-  "devDependencies": {
-    "vuepress": "^1.8.2",
-    "vuepress-theme-hope": "^1.13.1"
+  "hexo": {
+    "version": "5.4.0"
+  },
+  "dependencies": {
+    "hexo": "^5.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^2.0.0"
   }
 }

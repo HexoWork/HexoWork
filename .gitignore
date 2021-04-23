@@ -1,10 +1,7 @@
-node_modules/
-docs/.vuepress/dist/
-Thumbs.db
 .DS_Store
+Thumbs.db
 db.json
 *.log
-.vscode/
-package-lock.json
-.git/
-deploy.sh
+node_modules/
+public/
+.deploy*/
